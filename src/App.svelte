@@ -7,7 +7,7 @@ let tasks = {
 </script>
 
 <main>
-  <div>Formulario de tarea</div> 
+  <div>Formulario de tareas</div> 
   <form>
     <label for="name">Titulo de la Tarea</label>
     <input type="text" id="name" placeholder="Escribe un titulo">
