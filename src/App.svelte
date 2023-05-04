@@ -9,10 +9,10 @@ let tasks = {
 <main>
   <div>Formulario de tarea</div> 
   <form>
-    <label>Title</label>
-    <input type="text" name="" placeholder="Escribe un titulo">
+    <label for="name">Titulo de la Tarea</label>
+    <input type="text" id="name" placeholder="Escribe un titulo">
 
-    <label for="description">Description</label>
+    <label for="description">Descripcion de la Tarea</label>
     <textarea id="description" placeholder="Escribe una descripcion" rows="3"></textarea>
   </form>
 </main>
